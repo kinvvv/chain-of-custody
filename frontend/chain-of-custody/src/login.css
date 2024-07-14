@@ -1,62 +1,65 @@
 /* src/Login.css */
 .Login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-    color: white;
-  }
-  
-  .login-container {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    text-align: center;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .form-group input {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  .login-btn {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4CAF50; /* Green */
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 20px;
-  }
-  
-  .login-btn:hover {
-    background-color: #45a049;
-  }
-  
-  .register-link {
-    display: block;
-    margin-top: 20px;
-    text-align: right;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .register-link:hover {
-    text-decoration: underline;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  color: white;
+}
+
+.login-container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 60px; /* Increase padding to make the background larger */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 400px; /* Set a fixed width for better alignment */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left; /* Left align the label and input */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding doesn't affect total width */
+}
+
+.login-btn {
+  width: 100%; /* Match width to input fields */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-sizing: border-box; /* Ensure padding doesn't affect total width */
+}
+
+.login-btn:hover {
+  background-color: #45a049;
+}
+
+.register-link {
+  display: block;
+  margin-top: 20px;
+  text-align: right;
+  color: white;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
